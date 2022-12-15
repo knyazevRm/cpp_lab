@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/romanknazev/Desktop/additionally projects/math and basic function/cmake-build-debug"
+			"value" : "/Users/romanknazev/Desktop/cpp/additionally projects/math and basic function/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/romanknazev/Desktop/additionally projects/math and basic function"
+			"value" : "/Users/romanknazev/Desktop/cpp/additionally projects/math and basic function"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/romanknazev/Desktop/additionally projects/math and basic function/cmake-build-debug"
+			"value" : "/Users/romanknazev/Desktop/cpp/additionally projects/math and basic function/cmake-build-debug"
 		},
 		{
 			"name" : "lab_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/romanknazev/Desktop/additionally projects/math and basic function"
+			"value" : "/Users/romanknazev/Desktop/cpp/additionally projects/math and basic function"
 		}
 	],
 	"kind" : "cache",

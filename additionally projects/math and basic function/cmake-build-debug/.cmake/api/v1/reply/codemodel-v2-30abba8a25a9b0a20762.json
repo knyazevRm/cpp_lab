@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lab::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab-Debug-58de2e7add029c8bf5b0.json",
+					"jsonFile" : "target-lab-Debug-7fe9634556b0d16dcb9e.json",
 					"name" : "lab",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/romanknazev/Desktop/additionally projects/math and basic function/cmake-build-debug",
-		"source" : "/Users/romanknazev/Desktop/additionally projects/math and basic function"
+		"build" : "/Users/romanknazev/Desktop/cpp/additionally projects/math and basic function/cmake-build-debug",
+		"source" : "/Users/romanknazev/Desktop/cpp/additionally projects/math and basic function"
 	},
 	"version" : 
 	{

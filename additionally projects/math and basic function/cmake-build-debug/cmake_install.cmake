@@ -1,4 +1,4 @@
-# Install script for directory: /Users/romanknazev/Desktop/additionally projects/math and basic function
+# Install script for directory: /Users/romanknazev/Desktop/cpp/additionally projects/math and basic function
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/romanknazev/Desktop/additionally projects/math and basic function/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/romanknazev/Desktop/cpp/additionally projects/math and basic function/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
