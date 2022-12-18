@@ -100,6 +100,24 @@ build CMakeFiles/lab.dir/variant_16/num_3.cpp.o: CXX_COMPILER__lab_Debug /Users/
   OBJECT_DIR = CMakeFiles/lab.dir
   OBJECT_FILE_DIR = CMakeFiles/lab.dir/variant_16
 
+build CMakeFiles/lab.dir/variant_17/num_1.cpp.o: CXX_COMPILER__lab_Debug /Users/romanknazev/Desktop/cpp/additionally$ projects/math$ and$ basic$ function/variant$ 17/num$ 1.cpp || cmake_object_order_depends_target_lab
+  DEP_FILE = CMakeFiles/lab.dir/variant_17/num_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab.dir/variant_17
+
+build CMakeFiles/lab.dir/variant_17/num_2.cpp.o: CXX_COMPILER__lab_Debug /Users/romanknazev/Desktop/cpp/additionally$ projects/math$ and$ basic$ function/variant$ 17/num$ 2.cpp || cmake_object_order_depends_target_lab
+  DEP_FILE = CMakeFiles/lab.dir/variant_17/num_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab.dir/variant_17
+
+build CMakeFiles/lab.dir/variant_17/num_3.cpp.o: CXX_COMPILER__lab_Debug /Users/romanknazev/Desktop/cpp/additionally$ projects/math$ and$ basic$ function/variant$ 17/num$ 3.cpp || cmake_object_order_depends_target_lab
+  DEP_FILE = CMakeFiles/lab.dir/variant_17/num_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab.dir/variant_17
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab
@@ -108,7 +126,7 @@ build CMakeFiles/lab.dir/variant_16/num_3.cpp.o: CXX_COMPILER__lab_Debug /Users/
 #############################################
 # Link the executable lab
 
-build lab: CXX_EXECUTABLE_LINKER__lab_Debug CMakeFiles/lab.dir/part_1/num_3.cpp.o CMakeFiles/lab.dir/part_1/num_6.cpp.o CMakeFiles/lab.dir/part_1/num_13.cpp.o CMakeFiles/lab.dir/variant_1/num_1.cpp.o CMakeFiles/lab.dir/variant_1/num_2.cpp.o CMakeFiles/lab.dir/variant_1/num_3.cpp.o CMakeFiles/lab.dir/variant_16/num_1.cpp.o CMakeFiles/lab.dir/variant_16/num_2.cpp.o CMakeFiles/lab.dir/variant_16/num_3.cpp.o
+build lab: CXX_EXECUTABLE_LINKER__lab_Debug CMakeFiles/lab.dir/part_1/num_3.cpp.o CMakeFiles/lab.dir/part_1/num_6.cpp.o CMakeFiles/lab.dir/part_1/num_13.cpp.o CMakeFiles/lab.dir/variant_1/num_1.cpp.o CMakeFiles/lab.dir/variant_1/num_2.cpp.o CMakeFiles/lab.dir/variant_1/num_3.cpp.o CMakeFiles/lab.dir/variant_16/num_1.cpp.o CMakeFiles/lab.dir/variant_16/num_2.cpp.o CMakeFiles/lab.dir/variant_16/num_3.cpp.o CMakeFiles/lab.dir/variant_17/num_1.cpp.o CMakeFiles/lab.dir/variant_17/num_2.cpp.o CMakeFiles/lab.dir/variant_17/num_3.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1
   OBJECT_DIR = CMakeFiles/lab.dir
   POST_BUILD = :

@@ -22,10 +22,10 @@ int main() {
 
     if (a < 0) {
         if (b == 0) {
-            cout << "a < 0 и b = 0";
+            cout << "a < 0 и b = 0: ";
             cout << "f(a, b) = 3 * a + 2 = " << 3 * a + 2 << endl << "при a = " << a << ", b = " << b;
         } else {
-            cout << "a < 0 и b != 0";
+            cout << "a < 0 и b != 0: ";
             cout << "f(a, b) = 3 * a / (2 * b) = " << 3 * a / (2 * b) << endl << "при a = " << a << ", b = " << b;
         }
     } else {
