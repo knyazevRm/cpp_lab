@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/romanknazev/Desktop/cpp/additionally projects Select CMakeLists.txt
