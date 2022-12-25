@@ -11,13 +11,7 @@ using namespace std;
 
 // Возвращает индекс крайнего максимального элемента в переданном массиве
 int get_max_index(int *arr, int length) {
-    int index_max;
-
-    if (length > 0) {
-        index_max = 0;
-    } else {
-        return -1;
-    }
+    int index_max = 0;
 
     for (int i = 1; i < length; ++i) {
         if (arr[index_max] <= arr[i]) {
@@ -30,13 +24,7 @@ int get_max_index(int *arr, int length) {
 
 // Возвращает индекс крайнего минимального элемента в переданном массиве
 int get_min_index(int *arr, int length) {
-    int index_min;
-
-    if (length > 0) {
-        index_min = 0;
-    } else {
-        return -1;
-    }
+    int index_min = 0;
 
     for (int i = 1; i < length; ++i) {
         if (arr[index_min] >= arr[i]) {
