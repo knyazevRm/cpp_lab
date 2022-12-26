@@ -9,9 +9,9 @@
 
 using namespace std;
 
-const char TARGET_CHAR = 'a';
 
-string::size_type count_words_with_a_at_the_start(const string &s, const char target = TARGET_CHAR)
+
+string::size_type count_words_with_a_at_the_start(const string &s, const char target)
 {
     const char *delimiter = " ,.";
 
@@ -38,12 +38,14 @@ int main() {
 
     setlocale(LC_ALL, "Russian");
 
+    const char TARGET_CHAR = 'a';
+
     string s;
     cout << "Input string:" << endl;
     getline(cin, s);
 
     cout <<"The string has "
-         << count_words_with_a_at_the_start(s.c_str()) << " words, which at the start with "
+         << count_words_with_a_at_the_start(s.c_str(), TARGET_CHAR) << " words, which at the start with "
          << TARGET_CHAR << " character."
          << endl;
 

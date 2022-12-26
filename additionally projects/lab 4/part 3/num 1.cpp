@@ -9,9 +9,7 @@
 
 using namespace std;
 
-const string::size_type TARGET_LENGTH = 5;
-
-string::size_type count_words(const string &s, string::size_type length = TARGET_LENGTH)
+string::size_type count_words(const string &s, string::size_type length)
 {
     const char *delimiter = " ,.";
 
@@ -36,12 +34,14 @@ int main() {
 
     setlocale(LC_ALL, "Russian");
 
+    const string::size_type TARGET_LENGTH = 5;
+
     string s;
     cout << "Input string:" << endl;
     getline(cin, s);
 
     cout <<"The string has "
-        << count_words(s.c_str()) << " words of "
+        << count_words(s.c_str(), TARGET_LENGTH) << " words of "
         << TARGET_LENGTH << " characters."
         << endl;
 
